@@ -2,10 +2,11 @@ const express = require('express');
 const router = express.Router();
 const Task = require('../modelos/Task');
 
-// Obtener tareas
-router.get('/', async (req, res) => {
+// Obtener tareas por usuario
+router.get('/:userId', async (req, res) => {
   try {
-    const tasks = await Task.find();
+    const { userId } = req.params;
+    const tasks = await Task.find({ userId });
     res.json(tasks);
   } catch (err) {
     res.status(500).json({ message: 'Error obteniendo tareas' });
@@ -15,14 +16,9 @@ router.get('/', async (req, res) => {
 // Crear nueva tarea
 router.post('/', async (req, res) => {
   try {
-    const { title, status, priority } = req.body;
-    // userId se puede agregar fijo, o mejorar el modelo luego
-    const nuevaTarea = new Task({
-      title,
-      status,
-      priority,
-      userId: '64fa1ca5f2b34434b8c9a123', // puedes reemplazar con un id real
-    });
+    const { title, status, userId } = req.body;
+    if (!userId) return res.status(400).json({ message: 'Falta userId' });
+    const nuevaTarea = new Task({ title, status, userId });
     await nuevaTarea.save();
     res.status(201).json(nuevaTarea);
   } catch (err) {

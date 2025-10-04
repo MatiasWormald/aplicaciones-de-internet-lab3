@@ -3,13 +3,16 @@ require('dotenv').config(); // Carga variables del .env
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const userRoutes = require('./routes/users');
+const taskRoutes = require('./routes/tasks');
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 
-// Importar rutas (carpeta correcta es 'routes', no 'routers')
-const taskRoutes = require('./routes/tasks');
+// Importar rutas
+app.use('/api/users', userRoutes);
 app.use('/api/tasks', taskRoutes);
 
 // Conectar a MongoDB y luego iniciar servidor
@@ -25,5 +28,4 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
     console.error('Error en conexión a MongoDB:', err);
   });
 
-// Endpoint raíz para prueba
 app.get('/', (req, res) => res.send('API funcionando'));
