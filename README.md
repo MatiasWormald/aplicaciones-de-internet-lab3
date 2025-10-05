@@ -1,4 +1,13 @@
 <h1 align=center>Aplicaciones a internet-Lab 3</h1>
+<div align=center>
+
+!<p>
+<a href="https://github.com/Prado-exe"><img src="https://github.com/Prado-exe" width="48" height="48" alt="¨Prado-exe"/></a>
+<a href="https://github.com/MatiasWormald"><img src="https://github.com/MatiasWormald" width="48" height="48" alt="MatiasWormald"/></a>
+</p>
+
+
+</div>
 
 ![Imagen de WhatsApp 2025-10-04 a las 00 20 35_0fbe6218](https://github.com/user-attachments/assets/a9f3e0fb-17e1-4c3f-bd8e-847e33abd4ed)
 
