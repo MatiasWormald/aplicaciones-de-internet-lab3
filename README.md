@@ -3,10 +3,9 @@
 <div align=center>
 
 <p>
-## Bastian Prado:
-  <a href="https://github.com/Prado-exe"><img src="https://avatars.githubusercontent.com/u/80771822?s=400&u=06ac1d3a408302a6702002d12b25d8091abedfeb&v=4" width="48" height="48"border-radius alt="¨Prado-exe"/></a>
-<a href="https://github.com/MatiasWormald"><img src="https://github.com/MatiasWormald" width="48" height="48" alt="MatiasWormald"/></a>
-</p>
+**Bastian Prado** <a href="https://github.com/Prado-exe"><img src="https://avatars.githubusercontent.com/u/80771822?s=400&u=06ac1d3a408302a6702002d12b25d8091abedfeb&v=4" width="48" height="48" style="border-radius:50%;" alt="¨Prado-exe"/></a> 
+**Matias Wormald** <a href="https://github.com/MatiasWormald"><img src="https://avatars.githubusercontent.com/u/147435854?v=4" width="48" height="48" style="border-radius:50%; alt="MatiasWormald"/></a>
+</p>  
 
 </div>
 
