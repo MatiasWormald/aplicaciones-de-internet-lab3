@@ -20,5 +20,5 @@ Para previzualisar la pagina primero instalamos las dependencias con el comando 
 -   Express.JS: [`Express.JS`](https://expressjs.com/)
 -   React+Vite: [`React+Vite.JS`](https://es.vite.dev/guide/)
 -   Node.JS: [`Node.JS`](https://nodejs.org/es)
--   Taildwind.Css: [`Node.JS`](https://nodejs.org/es)
+-   Taildwind.Css: [`Talidwind.css`](https://tailwindcss.com/docs/installation/using-vite)
 
