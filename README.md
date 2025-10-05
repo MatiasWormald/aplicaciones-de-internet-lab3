@@ -1,7 +1,14 @@
-<h1 align=center>Aplicaciones a internet Lab 3</h1>
+<h1 align=center>Aplicaciones a internet-Lab 3</h1>
 
 
-##Como abrir La aplicación
+## Componentes-Necesarios:
+
+-   Node.JS: [`NodeJS`](https://nodejs.org/es)
+
+
+
+Para abrir el programa abri
+
 
 Para abrir el programa primero nos vamos a la carpeta donde la tengamos el proyecto desde el cmd, luego para abrir el back nos metemos a la carpeta del backend y escribimos en el cmd "code ." para abrir el codigo(opcional) y "node server.js" para abrir la base de datos, es importante seguir el orden asi no tenemos que abrir 2 cmd
 
