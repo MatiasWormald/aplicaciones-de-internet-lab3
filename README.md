@@ -9,7 +9,7 @@
 
 Una vez instalado los componentes necesarios [`Node.JS`] no redirigimos al directorio mediante la consola de comandos (CMD) o por manejo de archivos nativo , cabe aclarar que existen dos carpetas donde se separa el frontend y backend.
 
-> [!NOTA]
+> NOTA
 > En caso de querer ver la base de datos ocupamos node server.js
 > para previzualisar los datos guardados en la misma
 
