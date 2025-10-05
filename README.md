@@ -1,7 +1,7 @@
 <h1 align=center>Aplicaciones a internet-Lab 3</h1>
 
 
-!<p>
+<p>
 <a href="https://github.com/Prado-exe"><img src="https://github.com/Prado-exe" width="48" height="48" alt="¨Prado-exe"/></a>
 <a href="https://github.com/MatiasWormald"><img src="https://github.com/MatiasWormald" width="48" height="48" alt="MatiasWormald"/></a>
 </p>
