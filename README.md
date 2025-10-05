@@ -1,22 +1,25 @@
 <h1 align=center>Aplicaciones a internet-Lab 3</h1>
 
 
-## Componentes-Necesarios:
+## Componentes Necesarios (Instalar):
 
--   Node.JS: [`NodeJS`](https://nodejs.org/es)
+-   Node.JS: [`Node.JS`](https://nodejs.org/es)
 
+## Instalación:
 
+Una vez instalado los componentes necesarios [`Node.JS`] no redirigimos al directorio mediante la consola de comandos (CMD) o por manejo de archivos nativo , cabe aclarar que existen dos carpetas donde se separa el frontend y backend.
 
-Para abrir el programa abri
+> [!NOTA]
+> En caso de querer ver la base de datos ocupamos node server.js
+> para previzualisar los datos guardados en la misma
 
+Para previzualisar la pagina primero instalamos las dependencias con el comando `npm install` instaladas todas las dependecias respectivas podemos ejecutar el entorno con el comando `npm run dev`
 
-Para abrir el programa primero nos vamos a la carpeta donde la tengamos el proyecto desde el cmd, luego para abrir el back nos metemos a la carpeta del backend y escribimos en el cmd "code ." para abrir el codigo(opcional) y "node server.js" para abrir la base de datos, es importante seguir el orden asi no tenemos que abrir 2 cmd
+## Herramientas usadas
 
-para la parte del front es casi lo mismo, desde la carpeta del front primero abrimos el codigo "code ." (opcional) y luego para abrir la pagina ponemos "npm run dev" y se nos abrira
+-   MongoBD: [`MongoBD`](https://www.mongodb.com/)
+-   Express.JS: [`Express.JS`](https://expressjs.com/)
+-   React+Vite: [`React+Vite.JS`](https://es.vite.dev/guide/)
+-   Node.JS: [`Node.JS`](https://nodejs.org/es)
+-   Taildwind.Css: [`Node.JS`](https://nodejs.org/es)
 
-herramientas usadas:
-todo lo de mern stack
-mongoDB
-express
-react + vite
-node
