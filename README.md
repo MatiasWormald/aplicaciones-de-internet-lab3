@@ -1,7 +1,52 @@
-#Aplicaciones-de-internet-lab3
+<h1 align=center>Aplicaciones a internet-Lab 3</h1>
 
-Como abrir la pagina localmente: Para abrir el programa primero nos vamos a la carpeta donde la tengamos el proyecto desde el cmd, luego para abrir el back nos metemos a la carpeta del backend y escribimos en el cmd "code ." para abrir el codigo(opcional) y "node server.js" para abrir la base de datos, es importante seguir el orden asi no tenemos que abrir 2 cmd
+<div align="center">
 
-para la parte del front es casi lo mismo, desde la carpeta del front primero abrimos el codigo "code ." (opcional) y luego para abrir la pagina ponemos "npm run dev" y se nos abrira
+  <table>
+    <tr>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/Prado-exe">
+          <img src="https://avatars.githubusercontent.com/u/80771822?s=400&u=06ac1d3a408302a6702002d12b25d8091abedfeb&v=4" 
+               width="100" height="100" style="border-radius:50%;" alt="Prado-exe"/>
+        </a>
+        <br>
+        <strong>Bastian Prado</strong>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/MatiasWormald">
+          <img src="https://avatars.githubusercontent.com/u/147435854?v=4" 
+               width="100" height="100" style="border-radius:50%;" alt="MatiasWormald"/>
+        </a>
+        <br>
+        <strong>Matias Wormald</strong>
+      </td>
+    </tr>
+  </table>
 
-herramientas usadas: todo lo de mern stack mongoDB express react + vite node
+</div>
+
+
+
+![Imagen de WhatsApp 2025-10-04 a las 00 20 35_0fbe6218](https://github.com/user-attachments/assets/a9f3e0fb-17e1-4c3f-bd8e-847e33abd4ed)
+
+## Componentes Necesarios (Instalar):
+
+-   Node.JS: [`Node.JS`](https://nodejs.org/es)
+
+## Instalación:
+
+Una vez instalado los componentes necesarios `Node.JS` no redirigimos al directorio mediante la consola de comandos (CMD) o por manejo de archivos nativo , cabe aclarar que existen dos carpetas donde se separa el frontend y backend.
+
+> En caso de querer ver la base de datos ocupamos node server.js
+> para previzualisar los datos guardados en la misma
+
+Para previzualisar la pagina primero instalamos las dependencias con el comando `npm install` instaladas todas las dependecias respectivas podemos ejecutar el entorno con el comando `npm run dev`
+
+## Herramientas usadas
+
+-   MongoBD: [`MongoBD`](https://www.mongodb.com/)
+-   Express.JS: [`Express.JS`](https://expressjs.com/)
+-   React+Vite: [`React+Vite.JS`](https://es.vite.dev/guide/)
+-   Node.JS: [`Node.JS`](https://nodejs.org/es)
+-   Taildwind.Css: [`Talidwind.css`](https://tailwindcss.com/docs/installation/using-vite)
+
